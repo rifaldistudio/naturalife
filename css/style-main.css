@@ -142,10 +142,22 @@ h1 {
 
 p {
     font-family: muli, sans-serif;
-    font-weight: 360;
+    font-weight: 400;
     font-size: 16px;
     color: black;
 }
+
+        @media only screen and (max-width:992px){
+            h1 {
+                font-size:32px;
+            }
+        }
+
+        @media only screen and (max-width:768px){
+            h1 {
+                font-size:28px;
+            }
+        }
 
 #navi {
     padding: 10px 25px;
@@ -193,7 +205,7 @@ p {
 }
 
 #text-area {
-    margin-top: 360px;
+    margin-top: 400px;
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
@@ -202,7 +214,7 @@ p {
 #text-area h1 {
     font-family: muli, sans-serif;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 48px;
     color: white;
 }
 
@@ -225,13 +237,23 @@ p {
             }
         }
 
+        @media only screen and (max-width:992px) {
+            #text-area {
+                margin: 100px 50px;
+            }
+
+            #text-area h1 {
+                font-size: 28px;
+            }
+        }
+
         @media only screen and (max-width:768px) {
             #text-area {
                 margin: 200px 50px;
             }
 
             #text-area h1 {
-                font-size: 36px;
+                font-size: 30px;
             }
         }
 
@@ -302,6 +324,18 @@ p {
     margin-top: 16px;
     font-size: 36px;
 }
+
+        @media only screen and (max-width:992px){
+            #video h1 {
+                font-size:32px;
+            }
+        }
+
+        @media only screen and (max-width:768px){
+            #video h1 {
+                font-size:28px;
+            }
+        }
 
 #judul-kelebihan {
     margin-top: 100px;
