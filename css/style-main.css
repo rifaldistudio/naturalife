@@ -15,7 +15,7 @@ Muli Italic
 
 font-family: muli, sans-serif;
 
-font-weight: 400;
+font-weight: 360;
 
 font-style: italic;
 
@@ -33,7 +33,7 @@ Muli Regular
 
 font-family: muli, sans-serif;
 
-font-weight: 400;
+font-weight: 360;
 
 font-style: normal;
 
@@ -136,14 +136,14 @@ body {
 h1 {
     font-family: muli, sans-serif;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 36px;
     color: black;
 }
 
 p {
     font-family: muli, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 360;
+    font-size: 16px;
     color: black;
 }
 
@@ -159,7 +159,7 @@ p {
 
 #menu a {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 
@@ -178,7 +178,7 @@ p {
 
 #login-btn a {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 }
 
@@ -193,7 +193,7 @@ p {
 }
 
 #text-area {
-    margin-top: 400px;
+    margin-top: 360px;
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
@@ -202,18 +202,18 @@ p {
 #text-area h1 {
     font-family: muli, sans-serif;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 36px;
     color: white;
 }
 
 #text-area p {
     font-family: muli, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 360;
+    font-size: 16px;
     color: white;
 }
 
-        @media only screen and (max-width:1400px) {
+        @media only screen and (max-width:1360px) {
             #text-area {
                 margin-top: 300px;
                 margin-left: 150px;
@@ -247,7 +247,7 @@ p {
     padding: 50px 50px;
 }
 
-        @media only screen and (max-width:1400px) {
+        @media only screen and (max-width:1360px) {
             #img-produk img {
                 width: 700px;
             }
