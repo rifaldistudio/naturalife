@@ -147,6 +147,13 @@ h3 {
     color: black;    
 }
 
+h5{
+    font-family: muli, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;    
+}
+
 p {
     font-family: muli, sans-serif;
     font-weight: 400;
@@ -158,11 +165,31 @@ p {
             h1 {
                 font-size:32px;
             }
+            h5 {
+                font-size: 18px;
+            }
         }
 
         @media only screen and (max-width:768px){
             h1 {
                 font-size:28px;
+            }
+            h5 {
+                font-size: 16px;
+            }
+        }
+
+        @media only screen and (max-width:352px) {
+            h5 {
+                font-weight: 700;
+                font-size: 13px;
+            }
+        }
+
+        @media only screen and (max-width:314px) {
+            h5 {
+                font-weight: 700;
+                font-size: 10px;
             }
         }
 
