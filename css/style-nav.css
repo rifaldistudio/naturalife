@@ -7,18 +7,35 @@
     height: 60px;
 }
 
+#inner-nav {
+    height: 70px;
+}
         @media only screen and (max-width:990px) {
             #navi img {
                 height: 50px;
-            }  
+            } 
+            #inner-nav {
+                height: 60px;
+            }
         }
 
         @media only screen and (max-width:768px) {
             #navi img {
                 height: 40px;
-            }  
+            } 
+            #inner-nav {
+                height: 50px;
+            }
         }
 
+        @media only screen and (max-width:620px) {
+            #navi img {
+                height: 35px;
+            } 
+            #inner-nav {
+                height: 40px;
+            }
+        }
 
 #menu {
     padding: 0px 0px;
