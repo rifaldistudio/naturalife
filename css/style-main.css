@@ -319,6 +319,13 @@ p {
             }
         }
 
+        @media only screen and (max-width:500px) {
+            #video video {
+                width: 334px;
+                height: 187px;
+            }
+        }
+
 #video h1 {
     margin-top: 16px;
     font-size: 36px;
@@ -398,7 +405,12 @@ p {
             }
         }
 
-
+        @media only screen and (max-width:500px) {
+            #img img {
+                width: 300px;
+            }
+        }
+        
 #footer-sec {
     background-color: white;
 }
